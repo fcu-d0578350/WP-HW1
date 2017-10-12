@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <title>使用HTML 5 撰寫下列表單</title>
+  </head>
+
+  <body>
+    <h1>使用HTML 5 撰寫下列表單</h1>
+    <p>使用者註冊</p>
+
+    <form method="post" autocomplete="on">
+      <p><label>帳號:
+        <input type="text" id="帳號" placeholder="請輸入您的帳號"/>
+      </label></p>
+
+      <p><label>密碼:
+        <input type="password" id="密碼" />
+      </label></p>
+
+      <p><label>電子郵件:
+        <input type="email" id="電子郵件" placeholder="請輸入您的電子郵件"/>
+      </label></p>
+
+      <p><label>生日:
+        <input type="date" id="生日" />
+      </label></p>
+
+      <p>
+        <label>性別:</label>
+        <label>男
+          <input name="gender" type="radio" value="男">
+        </label>
+
+        <label>女
+          <input name="gender" type="radio" value="女">
+        </label>
+
+        <label>其他
+          <input name="other" type="radio" value="其他">
+        </label>
+      </p>
+
+      <p>
+        <label>喜好:&nbsp</label>
+
+        <label>打球
+          <input type="checkbox" name="playball" value="playball">
+        </label>
+
+        <label>打電動
+          <input type="checkbox" name="playgame" value="playgame">
+        </label>
+
+        <label>購物
+          <input type="checkbox" name="shopping" value="shopping">
+        </label>
+
+        <label>其他
+          <input type="checkbox" name="other" value="other">
+        </label>
+      </p>
+
+      <p>
+        <label>年級
+          <select name="rating">
+            <option selected>大一</option>
+            <option>大二</option>
+            <option>大三</option>
+            <option>大四</option>
+          </select>
+        </label>
+      </p>
+
+      <p>
+        <input type="submit" value="送出">
+        <input type="reset" value="重設">
+      </p>
+  </body>
+</html>
